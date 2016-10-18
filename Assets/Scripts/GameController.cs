@@ -52,11 +52,11 @@ public class GameController : MonoBehaviour {
 	}
 
 	void UpdateScore () {
-		scoreText.text = "Score: " + score;
+		scoreText.text = "Ricky points: " + score;
 	}
 
 	public void GameOver () {
-		gameOverText.text = "Game Over";
+		gameOverText.text = "Gueim ober pls git gud...";
 		gameOver = true;
 	}
 
